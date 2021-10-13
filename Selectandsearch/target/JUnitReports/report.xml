@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="76.969">
+<testcase classname="To Test search button module functionality" name="To verify user can enter from location" time="16.701">
+<system-out><![CDATA[Given user is on Button Homepage............................................passed
+When user clicks on the fromtextbox.........................................passed
+Then he should enter the From place details.................................passed
+When user clicks on the Totextbox...........................................passed
+Then he should enter the to place details...................................passed
+Then choose the date........................................................passed
+And click on search button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test Sorting module functionality" name="To verify user can sort location" time="21.253">
+<system-out><![CDATA[Given user is on sorting Homepage...........................................passed
+When user clicks on the Fromtextbox.........................................passed
+Then he should enter the Fromplace details..................................passed
+When user clicks on the To textbox..........................................passed
+Then he should enter the Toplace details....................................passed
+Then choose the date of travel..............................................passed
+And click on search Button..................................................passed
+Then click on departure sort................................................passed
+And Then click on the duration sort.........................................passed
+Then Click on the Arrival sort..............................................passed
+And Then click on Ratings sort..............................................passed
+Then click on Fare sort.....................................................passed
+And Then click on Seatsavailable sort.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test To module functionality" name="To verify user can enter To location" time="12.052">
+<system-out><![CDATA[Given user is on To Homepage................................................passed
+When user clicks on Totextbox...............................................passed
+Then he should enter the To details.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test From module functionality" name="To verify user can enter from location" time="13.687">
+<system-out><![CDATA[Given user is on  From Homepage.............................................passed
+When user clicks on fromtextbox.............................................passed
+Then he should enter the from details.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test Date module functionality" name="To verify user can enter The Date" time="13.042">
+<system-out><![CDATA[Given user is on onward Homepage............................................passed
+Then he should pick the To Date of travel...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
