@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.021">
+<testcase classname="Book a ticket" name="To verify the user can save the card for the future;" time="0.008">
+<failure message="org/openqa/selenium/chrome/ChromeDriver" type="java.lang.NoClassDefFoundError"><![CDATA[Given a user is on redbus site..............................................failed
+And user is booking one or more tickets.....................................skipped
+And user is filling passenger details form..................................skipped
+And user clicks on a Proceed to pay button..................................skipped
+And is on payment page......................................................skipped
+When user is entering the card details......................................skipped
+And the user selects "save card for future use" button......................skipped
+Then the card details will be saved.........................................skipped
+
+StackTrace:
+java.lang.NoClassDefFoundError: org/openqa/selenium/chrome/ChromeDriver
+	at browser.Browser.setDriver(Browser.java:19)
+	at sprint2.StepDefinition.a_user_is_on_redbus_site(StepDefinition.java:22)
+	at ✽.a user is on redbus site(file:///C:/Users/kshailes/eclipse-workspace/RedBus/src/test/resources/Features/Cards.feature:3)
+]]></failure>
+</testcase>
+</testsuite>
