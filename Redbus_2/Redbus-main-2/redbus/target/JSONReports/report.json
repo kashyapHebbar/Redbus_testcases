@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:27:18.049Z",
+        "line": 2,
+        "name": "to verify that user enters valid gmail and password",
+        "description": "",
+        "id": "to-test-the-signup-module-functionality;to-verify-that-user-enters-valid-gmail-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12822054600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on signup/signin window",
+            "match": {
+              "location": "stepdefinition.ValidGmail.user_is_on_signup_signin_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3999587000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters gmailorphone and gmailpassword",
+            "match": {
+              "location": "stepdefinition.ValidGmail.user_enters_gmailorphone_and_gmailpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should navigates to home page of redbus application",
+            "match": {
+              "location": "stepdefinition.ValidGmail.user_should_navigates_to_home_page_of_redbus_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the signup module functionality",
+    "description": "",
+    "id": "to-test-the-signup-module-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/gmail.feature",
+    "tags": []
+  }
+]
